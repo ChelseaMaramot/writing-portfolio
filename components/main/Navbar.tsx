@@ -12,7 +12,7 @@ const Navbar = () => {
         
             <div className='flex flex-row gap-10 float-right border-[#7042f861] rounded-full text-gray-200'>
                 <a href="#Work" className='cursor-pointer'>Work</a>
-                <a href="#About" className='cursor-pointer'>About</a>
+                <a href="/about" className='cursor-pointer'>About</a>
             </div>
         </div>
 
