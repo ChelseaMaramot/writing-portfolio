@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
@@ -7,12 +8,12 @@ const Navbar = () => {
         <div className='w-full h-full flex flex-row items-center justify-between px-[60px]'>
             
             <div className='float-left text-gray-200 text-xl tracking-[0.3em] '>
-                <a href="#home" className='cursor-pointer'>ROYA MOTAZEDIAN</a>
+                <Link href="/" className='cursor-pointer'>ROYA MOTAZEDIAN</Link>
             </div>
         
             <div className='flex flex-row gap-10 float-right border-[#7042f861] rounded-full text-gray-200'>
-                <a href="#Work" className='cursor-pointer'>Work</a>
-                <a href="/about" className='cursor-pointer'>About</a>
+                <Link href="/#work" className='cursor-pointer'>Work</Link>
+                <Link href="/about" className='cursor-pointer'>About</Link>
             </div>
         </div>
 
