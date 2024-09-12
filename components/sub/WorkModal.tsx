@@ -15,7 +15,7 @@ interface WorkModalProps {
 
 export default function WorkModal({isModalOpen, onModalClose, poem}: WorkModalProps) {
   return (
-    <div>
+    <div className="w-full h-full absolute top-0 backdrop-filter backdrop-blur-sm">
         <Modal isOpen={isModalOpen} onClose={onModalClose} className="flex items-center m-10 py-10 bg-[#25EEFA]">
             <ModalContent className="text-black">
                 <ModalHeader className="flex flex-col gap-1 my-6 text-xl font-bold">{poem.title}</ModalHeader>
