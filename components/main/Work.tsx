@@ -45,7 +45,7 @@ const Work = () => {
         ))}
       </div>
 
-      <div className=''>
+      <div className='h-full'>
         {selectedPoem && (
           <WorkModal
             isModalOpen={isModalOpen}
