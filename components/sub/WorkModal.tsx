@@ -16,11 +16,11 @@ interface WorkModalProps {
 export default function WorkModal({isModalOpen, onModalClose, poem}: WorkModalProps) {
   return (
     <div className="w-full h-full absolute top-0 backdrop-filter backdrop-blur-sm">
-        <Modal size="md" scrollBehavior="inside" isOpen={isModalOpen} onClose={onModalClose} className="flex items-center m-10 py-10 px-5 bg-[#25EEFA]">
+        <Modal hideCloseButton={true} size="xl" isOpen={isModalOpen} onClose={onModalClose} className="flex flex-column items-center rounded mt-10 mx-10 pt-5 px-5 bg-[#25EEFA] h-auto min-h-[30vh] max-h-[80vh]">
             <ModalContent className="text-black">
                 <ModalHeader className="flex flex-col gap-1 my-5 text-xl font-bold">{poem.title}</ModalHeader>
-                <ModalBody className="p-1 whitespace-pre-wrap">{poem.content}</ModalBody>
-                <ModalFooter>
+                <ModalBody className="p-1 whitespace-pre-wrap overflow-y-auto">{poem.content}</ModalBody>
+                <ModalFooter className="m-auto py-5">
                     <Button className="bg-blue-500 hover: bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded" onPress={onModalClose}>
                     Close
                     </Button>
