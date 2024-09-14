@@ -6,9 +6,11 @@ const Page = () => {
   const email = "roya9mota@gmail.com";
 
   return (
-   <div className='flex flex-row h-screen w-full px-[60px] items-center justify-center'>
-    <Image src='/roya_milk.png' alt="Roya" width={500} height={500} className="object-cover"></Image>
-    <div className='flex items-center justify-center -ml-32 max-w-md min-w-[300px]'>
+   <div className='flex flex-col md:flex-row h-screen w-full items-center justify-center'>
+    <div className='flex items-center justify-center mx-3'>
+      <Image src='/roya_milk.png' alt="Roya" width={200} height={200} className="object-cover"></Image>
+    </div>
+    <div className='flex items-center justify-center max-w-md min-w-[300px]'>
       <p className='text-white  text-xl'>
         Hi!
         <br /><br />
