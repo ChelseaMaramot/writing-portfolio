@@ -17,7 +17,7 @@ const Work = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedPoem, setSelectedPoem] = useState<Poem | null>(null);
 
-  const openModal = (poem) => {
+  const openModal = (poem: Poem) => {
     setSelectedPoem(poem)
     setModalOpen(true);
   }
