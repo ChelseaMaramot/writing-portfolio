@@ -47,8 +47,7 @@ and yeah the stars did align but they wouldnt have if you didnt rotate the entir
 and even if it seems like it was handed to you dont forget everything that came before take it and know this wasnt luck
 this was the smallest thing the universe could do for you
 in return for you lighting all the stars in the sky ablaze
-with your passion
-`,
+with your passion`,
   },
   {
     src: '/PoemImage/poem3Image.jpeg',

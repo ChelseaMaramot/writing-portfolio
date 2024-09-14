@@ -28,7 +28,7 @@ const Work = () => {
   }
 
   return (
-    <div id="work" className="grid mx-2 items-center bg-[#03001417 backdrop-blur-md">
+    <div id="work" className="grid mx-2 items-center bg-[#03001417 backdrop-blur-md ">
       <div className="grid grid-cols-3 gap-3">
         {poems.slice(0,3).map((poem, index) => (
           <div key={index} onClick={() => openModal(poem)}>

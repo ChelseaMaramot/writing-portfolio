@@ -9,7 +9,7 @@ interface Props {
 
 const WorkCard = ({ src, title }: Props) => {
   return (
-    <div className="relative m-1 w-full h-48 md:h-64 lg:h-80 flex justify-center rounded- border border-[#2A0E61]">
+    <div className="relative m-1 w-full h-48 md:h-64 lg:h-80 flex justify-center border border-[#2A0E61]">
       <Image
         src={src}
         alt={title}
