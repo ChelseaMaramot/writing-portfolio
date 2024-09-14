@@ -10,7 +10,7 @@ const Page = () => {
     <div className='flex items-center justify-center mx-3'>
       <Image src='/roya_milk.png' alt="Roya" width={200} height={200} className="object-cover"></Image>
     </div>
-    <div className='flex items-center justify-center max-w-md min-w-[300px]'>
+    <div className='flex items-center justify-center max-w-md min-w-[300px] mx-20'>
       <p className='text-white  text-xl'>
         Hi!
         <br /><br />
