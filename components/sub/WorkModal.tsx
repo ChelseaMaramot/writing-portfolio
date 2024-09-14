@@ -16,7 +16,7 @@ interface WorkModalProps {
 export default function WorkModal({isModalOpen, onModalClose, poem}: WorkModalProps) {
   return (
     <div className="w-full h-full absolute top-0 backdrop-filter backdrop-blur-sm">
-        <Modal hideCloseButton={true} size="xl" isOpen={isModalOpen} onClose={onModalClose} className="font-serif flex flex-column items-center rounded  mt-10 mx-10 pt-5 px-5 bg-white h-auto min-h-[30vh] max-h-[80vh]">
+        <Modal hideCloseButton={true} size="md" isOpen={isModalOpen} onClose={onModalClose} className="font-serif flex flex-column items-center rounded  mt-10 mx-10 pt-5 px-5 bg-white h-auto min-h-[30vh] max-h-[80vh]">
             <ModalContent className="text-black">
                 <ModalHeader className="flex flex-col gap-1 my-5 text-xl font-bold">{poem.title}</ModalHeader>
                 <ModalBody className="p-1 whitespace-pre-wrap overflow-y-auto leading-9">{poem.content}</ModalBody>
