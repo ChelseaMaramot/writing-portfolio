@@ -18,7 +18,7 @@ const HeroContent = () => {
 
   return (
     <div className='h-[100vh] flex flex-col items-center justify-center'>
-      <div className='text-7xl text-white flex items-center justify-center'>
+      <div className='md:text-7xl sm: text-5xl text-white flex items-center justify-center'>
         I&apos;m&nbsp;<span style={{ color: '#25EEFA', fontWeight: 'bold' }}>{text}</span><span><Cursor></Cursor></span>
       </div>
       <div className='flex flex-row justify-center mt-6 space-x-3 z-40'> 
