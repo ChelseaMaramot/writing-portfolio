@@ -1,8 +1,6 @@
 "use client";
 import React from 'react'
 // @ts-ignore
-import Typewriter from 'typewriter-effect';
-import { TypeAnimation } from 'react-type-animation';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 
