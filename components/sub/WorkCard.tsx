@@ -13,8 +13,9 @@ const WorkCard = ({ src, title }: Props) => {
       <Image
         src={src}
         alt={title}
-        layout="fill"  
-        objectFit="cover" 
+        layout="responsive"
+        width={150} 
+        height={150} 
         className="w-full h-full"
       />
       <a className="group absolute w-full h-full top-0 left-0  bg-[#030014] opacity-50 z-10 duration-300  hover:opacity-100 hover:bg-[#25EEFA] flex items-center justify-center">

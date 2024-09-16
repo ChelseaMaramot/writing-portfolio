@@ -30,17 +30,9 @@ const Work = () => {
   return (
     <div id="work" className="grid mx-2 items-center bg-[#03001417 backdrop-blur-md ">
       <div id="work-offset" className="h-[90px]"></div>
-      <div className="grid grid-cols-3 gap-3">
-        {poems.slice(0,3).map((poem, index) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        {poems.map((poem, index) => (
           <div key={index} onClick={() => openModal(poem)}>
-                 <WorkCard src={poem.src} title={poem.title} />
-          </div>
-        ))
-        }
-      </div>
-      <div className="grid grid-cols-2 gap-3">
-        {poems.slice(3).map((poem, index) => (
-          <div key={index+3} onClick={() => openModal(poem)}>
             <WorkCard src={poem.src} title={poem.title} />
           </div>
         ))}
